@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.457" height="21.457" viewBox="0 0 22.457 21.457">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_717" data-name="Rectangle 717" width="18.645" height="18.268" transform="translate(0 0)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_9549" data-name="Group 9549" transform="translate(22335 21041)">
+    <g id="Group_9548" data-name="Group 9548">
+      <g id="Group_9546" data-name="Group 9546" transform="translate(-22335 -21041)">
+        <g id="Rectangle_715" data-name="Rectangle 715" fill="#0c9" stroke="#0c9" stroke-width="1.2">
+          <rect width="21.457" height="21.457" rx="2" stroke="none"/>
+          <rect x="0.6" y="0.6" width="20.257" height="20.257" rx="1.4" fill="none"/>
+        </g>
+        <g id="Mask_Group_31" data-name="Mask Group 31" transform="translate(0.921 1.634)" clip-path="url(#clip-path)">
+          <path id="tick_mark" data-name="tick mark" d="M53.729,39.2q2.366-3.855,4.7-7.688c.949-1.545,1.9-3.1,2.84-4.643a1.757,1.757,0,0,1,1.533-.914,1.811,1.811,0,0,1,1.577,2.689c-.453.81-.964,1.59-1.446,2.384q-3.745,6.117-7.484,12.234a1.812,1.812,0,0,1-1.679.958,1.655,1.655,0,0,1-1.307-.676q-2.322-3.1-4.622-6.218a1.728,1.728,0,0,1-.139-1.939,1.7,1.7,0,0,1,1.7-.951,1.742,1.742,0,0,1,1.343.787c.949,1.285,1.906,2.563,2.862,3.848C53.648,39.111,53.685,39.149,53.729,39.2Z" transform="translate(-46.718 -25.956)" fill="#fff"/>
+        </g>
+        <g id="Rectangle_724" data-name="Rectangle 724" transform="translate(1)" fill="#0c9" stroke="#0c9" stroke-width="1.2">
+          <rect width="21.457" height="21.457" rx="2" stroke="none"/>
+          <rect x="0.6" y="0.6" width="20.257" height="20.257" rx="1.4" fill="none"/>
+        </g>
+        <g id="Mask_Group_32" data-name="Mask Group 32" transform="translate(1.921 1.634)" clip-path="url(#clip-path)">
+          <path id="tick_mark-2" data-name="tick mark" d="M53.729,39.2q2.366-3.855,4.7-7.688c.949-1.545,1.9-3.1,2.84-4.643a1.757,1.757,0,0,1,1.533-.914,1.811,1.811,0,0,1,1.577,2.689c-.453.81-.964,1.59-1.446,2.384q-3.745,6.117-7.484,12.234a1.812,1.812,0,0,1-1.679.958,1.655,1.655,0,0,1-1.307-.676q-2.322-3.1-4.622-6.218a1.728,1.728,0,0,1-.139-1.939,1.7,1.7,0,0,1,1.7-.951,1.742,1.742,0,0,1,1.343.787c.949,1.285,1.906,2.563,2.862,3.848C53.648,39.111,53.685,39.149,53.729,39.2Z" transform="translate(-46.718 -25.956)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

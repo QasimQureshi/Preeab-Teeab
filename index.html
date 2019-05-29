@@ -1,0 +1,874 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="noindex, nofollow">
+
+   <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet"><!-- kanit font -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/shared.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"><!-- Bootstrap date-picker -->
+    <link rel="stylesheet" href="assets/css/drawer.css">
+    <title>Preeab Teeab</title>
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+    <nav id="menu" class="menu">
+      <section class="menu-section">
+        <h3 class="menu-section-title">Search</h3>
+        <ul class="menu-section-list">
+          <li><a href="#" target="_blank">หน้าแรก</a></li>
+          <li class=""><a class="dropdown-toggle" href="#" data-toggle="collapse" data-target="#subnav" target="_blank">ประกัน</a>
+          </li>
+          <li class="collapse-container">
+            <div class="collapse text-center" id="subnav">
+              <h3 class=" text-center mb-3 text-info">ค้นหาประกัน</h3>
+              <div class="links text-center">
+                <span><a href="#">ประกันรถยนต์ </a></span>
+                <span><a href="#">ประกันมอเตอร์ไซด์</a></span>
+                <span><a href="#">ประกันอัคคีภัย</a></span>
+                <span><a href="#">ประกันการเดินทาง</a></span>
+                <span><a href="#">ประกันชีวิต</a></span>
+              </div>
+              <h3 class=" text-center mb-3 mt-3 text-info">บทความที่น่าสนใจ</h3>
+              <img class="shadow mb-2" src="assets/images/nav-2.png" />
+              <span class="royalblue text-justify px-4 d-block">ยีสต์อะซีโตนเวสาลีสินธีแอมโมเนียพาสเวิร์ดมกราคมมิราเคิลไดนามิคส์รังสิต </span>
+              <br>
+              <img class="shadow mb-2 " src="assets/images/nav-1.png" />
+              <span class="d-block text-justify px-4 mb-4">ยีสต์อะซีโตนเวสาลีสินธีแอมโมเนียพาสเวิร์ดมกราคมมิราเคิลไดนามิคส์รังสิต </span>
+            </div>
+          </li>
+          <li><a href="#" target="_blank">บริการทางการเงิน</a></li>
+          <li><a href="#" target="_blank">อินเตอร์เน็ท & บรอดแบนด์</a></li>
+        </ul>
+      </section>
+    </nav>
+    
+    
+    <main id="panel" role="main" class="content container flex-shrink-0 panel slideout-panel slideout-menu-right">
+    
+      <header class="navbar-root full-width">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a href="#" class="navbar-brand" tabindex="1" alt="home">
+              <span class="sr-only">(current)</span>
+              <img aria-hidden="true" src="assets/images/White-Logo.svg"  class="logo d-inline-block align-top" alt="logo"/>
+            </a>
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a alt="about" class="nav-link" href="#"  tabindex="2">หน้าแรก</a>
+                </li>
+                <li class="wide-nav nav-item dropdown">
+                  <a alt="services" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" tabindex="3">ประกัน</a>
+
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="container">
+                      <div class="text-center">
+                        <div class="row pt-4 pb-1">
+
+                          <div class="col-lg-2 mb-3 mb-lg-0 border-right">
+                            <h3 class=" text-center mb-3 navyblue">ค้นหาประกัน</h3>
+                          </div>
+
+                          <div class="col-lg-4 mt-5 mt-lg-0">
+
+                            <div class="links text-left text-lg-center">
+                              <span><a href="#">ประกันรถยนต์</a></span>
+                              <span><a href="#">ประกันมอเตอร์ไซด์</a></span>
+                              <span><a href="#">ประกันอัคคีภัย</a></span>
+                              <span><a href="#">ประกันการเดินทาง</a></span>
+                              <span><a href="#">ประกันชีวิต</a></span>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-2 mt-5 mt-lg-0 border-right">
+                            <h3 class="text-lg-left text-center mb-3 navyblue">
+                              บทความที่น่าสนใจ
+                            </h3>
+                          </div>
+
+                          <div class="col-lg-2 mt-5 mt-lg-0 text-left royalblue">
+                            <img class="shadow mb-2" src="assets/images/nav-1.png" />
+                            <span>ยีสต์อะซีโตนเวสาลีสินธีแอมโมเนียพาสเวิร์ดมกราคมมิราเคิลไดนามิคส์รังสิต </span>
+                          </div>
+
+                          <div class="col-lg-2 mt-5 mt-lg-0 text-left royalblue">
+                            <img class="shadow mb-2" src="assets/images/nav-2.png" />
+                            <span class="royalblue text-left">ยีสต์อะซีโตนเวสาลีสินธีแอมโมเนียพาสเวิร์ดมกราคมมิราเคิลไดนามิคส์รังสิต </span>
+                          </div>
+
+                        </div><!--/.row ENDs -->
+
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
+                <li class="nav-item">
+                  <a alt="contact" class="nav-link" href="#" tabindex="4">บริการทางการเงิน</a>
+                </li>
+                <li class="nav-item">
+                  <a alt="awards" class="nav-link" href="#" tabindex="5">อินเตอร์เน็ท & บรอดแบนด์</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0" action="https://google.com/search" method="get" target="_blank">
+                <input class="form-control mr-sm-2" tabindex="8" type="search" name="q" placeholder="ค้นหาข้อมูล" aria-label="Search (opens in a new window)">
+                <button class="btn my-2 my-sm-0" tabindex="9" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </header><!-- /.navbar-root ENDs-->
+     
+       <section class="jumbotron full-width p-4 p-md-5 text-white bg-dark">
+         <div class="container text-center">
+           <h1>เช็คและเปรียบเทียบราคา</h1> 
+           <h5 class="pt-1 font-italic font-weight-bold">อย่างสะดวก และ รวดเร็วทำให้อะไรๆง่ายขึ้น</h5>
+         </div>
+
+        <section class="cta-container">
+          <section class="row">
+            <a href="#" class="cta col-4" href="">
+              <img src="assets/images/CTA1.png">
+              <span>บริการทางการเงิน</span>
+            </a>
+            <a href="#" class="cta col-4 active" href="">
+              <img src="assets/images/CTA2.png">
+              <span>ประกันภัยแบบต่างๆ</span>
+            </a>
+            <a href="#" class="cta col-4" href="">
+              <img src="assets/images/CTA3.png">
+              <span>โปรอินเตอร์เน็ท </span>
+            </a>
+          </section>
+        </section>
+      </section>
+     
+     
+      <section class="tabbed-content full-width shadow-sm">
+        <div class="container">
+         
+          <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">ประกันเดินทาง</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">ประกันรถยนต์</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">ประกันมอเตอร์ไซด์</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="sit-tab" data-toggle="tab" href="#sit" role="tab" aria-controls="sit" aria-selected="false">ประกันชีวิต</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="amet-tab" data-toggle="tab" href="#amet" role="tab" aria-controls="amet" aria-selected="false">ประกันอัคคีภัย</a>
+            </li>
+          </ul>
+          <div class="tab-content p-4 bg-white pt-5 shadow-sm" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              
+              <form>
+                <div class="form-row">
+                  <label for="dropdown1" class="text-left col-md-2 col-form-label font-weight-bold">ประกันรูปแบบ</label>
+                  <div class="col-md-3 select-component">
+                    
+                    <button class="btn dropdown-toggle" type="button" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">แบบรายปี</button>
+                    
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">แบบรายปี</a>
+                      <a href="#" class="dropdown-item">Lorem</a>
+                      <a href="#" class="dropdown-item">Epsum</a>
+                      <a href="#" class="dropdown-item">Dolor</a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="form-row mt-3">
+                  
+                  <label for="dropdown2" class=" text-left col-md-2 col-form-label font-weight-bold">จุดหมายปลายทาง</label>
+                  <div class="col-md-3 select-component">
+                    
+                    <button class="btn dropdown-toggle" type="button" id="dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">เมือง, ประเทศ </button>
+                    
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">เมือง, ประเทศ </a>
+                      <a href="#" class="dropdown-item">Lorem</a>
+                      <a href="#" class="dropdown-item">Epsum</a>
+                      <a href="#" class="dropdown-item">Dolor</a>
+                    </div>
+                  
+                  </div>
+                  
+                  <label for="dropdown3" class="col-md-2 col-form-label font-weight-bold text-left text-md-right">จำนวนผู้เดินทาง</label>
+                  <div class="col-md-2 select-component">
+                    
+                    <button class="btn dropdown-toggle" type="button" id="dropdown3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      เด็ก
+                    </button>
+                    
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">เด็ก</a>
+                      <a href="#" class="dropdown-item">Lorem</a>
+                      <a href="#" class="dropdown-item">Epsum</a>
+                      <a href="#" class="dropdown-item">Dolor</a>
+                    </div>
+                  
+                  </div>
+                  <div class="col-md-2 select-component">
+                    
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ผู้ใหญ่</button>
+                    
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">ผู้ใหญ่</a>
+                      <a href="#" class="dropdown-item">Lorem</a>
+                      <a href="#" class="dropdown-item">Epsum</a>
+                      <a href="#" class="dropdown-item">Dolor</a>
+                    </div>
+                  
+                  </div>
+                </div>
+                
+                <div class="form-row mt-3">
+                  <label for="startdatepicker" class="col-md-2 text-left col-form-label font-weight-bold slightlysmall">ระยะเวลาเดินทาง</label>
+                  <div class="col-md-3">
+                    <input id="startdatepicker" placeholder="" />
+                  </div>
+                  
+                  <label for="enddatepicker" class="col-md-1 col-form-label font-weight-bold text-left text-md-right">ถึง</label>
+                  <div class="col-md-3">
+                    <input id="enddatepicker" placeholder="" />
+                  </div>
+                  
+                </div>
+                
+<!--
+                <div class="animated-boxes-container form-row mt-4 row justify-content-md-center mt-4">
+                  
+                  <input id='one' type='checkbox' />
+                  <label for='one'>
+                    <span></span>
+                    Off with your head
+                    <ins><i>Off with your head</i></ins>
+                  </label>
+
+                  <input id='two' type='checkbox' />
+                  <label for='two'>
+                    <span></span>
+                    Dance ’til you’re dead
+                    <ins><i>Dance ’til you’re dead</i></ins>
+                  </label>
+
+                  <input id='three' type='checkbox' />
+                  <label for='three'>
+                    <span></span>
+                    Heads will roll
+                    <ins><i>Heads will roll</i></ins>
+                  </label>
+
+                  <input id='four' type='checkbox' />
+                  <label for='four'>
+                    <span></span>
+                    On the floor
+                    <ins><i>On the floor</i></ins>
+                  </label>
+                  
+                </div>
+-->
+                
+                
+                <div class="mx-auto text-center w-50">
+                  <button type="submit" class="btn green-btn green-bg btn-block mt-4">
+                    ค้นหาเลย
+                    <span class="fas fa-angle-right"></span>
+                  </button>
+                  <div class="links text-center mt-3">
+                    <a href="#" class="velvet text-decoration-underline">กลับไปที่ค่าเริ่มต้น</a>  
+                  </div>
+                  
+                </div>
+              </form>
+              
+            </div><!-- /#home ENDs-->
+            
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            <div class="tab-pane fade" id="sit" role="tabpanel" aria-labelledby="sit-tab">...</div>
+            <div class="tab-pane fade" id="amet" role="tabpanel" aria-labelledby="amet-tab">...</div>
+          </div>
+          
+          <div class="mt-4 text-muted text-center"><span>หากคุณคลิก “ค้นหาเลย” ด้านบน หมายความว่าคุณตกลงยอมรับในข้อกำหนดและเงื่อนไขและนโยบายความเป็นส่วนตัวของเรา</span></div>
+          
+        </div><!-- /.container ENDs -->
+        
+        <img class="happyShiba" src="assets/images/Shiba-Inu_smile.svg" aria-hidden="true">
+      </section>
+     
+     
+      <section class="piggybank full-width">
+        <div class="container">
+          <div class="text-center">
+            <h5 class="velvet h4 font-weight-bold mb-3">ยีสต์อะซีโตนเวสา</h5>
+            <h2 class="display-5 font-weight-bold h1 blue">ยีสต์อะซีโตนเวสาลีสินธีแอมโมเนียม </h2>
+            <div class="subsections row mt-5">
+              <div class="subsection col-lg-4 col-md-12">
+                <div class="icon-container">
+                  <img src="assets/images/Wallet.svg">
+                </div>
+                <div class="text-container">
+                  <span class="teal">ทำไมต้องเปรียบเทียบ.คอม?</span>
+                  <span>ว้อยฟิวเจอร์เก๋ากี้ถูกต้องอัลไซเมอร์ มาร์กแคปจัมโบ้ควีน </span>
+                </div>
+              </div>
+
+              <div class="subsection col-lg-4 col-md-12">
+                <div class="icon-container">
+                  <img src="assets/images/Saving%20pig.svg">
+                </div>
+                <div class="text-container">
+                  <span class="teal">ราคาที่ประหยัด</span>
+                  <span class="">ว้อยฟิวเจอร์เก๋ากี้ถูกต้องอัลไซเมอร์ มาร์กแคปจัมโบ้ควีน </span>
+                </div>
+              </div>
+
+              <div class="subsection col-lg-4  col-md-12">
+                <div class="icon-container">
+                  <img src="assets/images/Speaker.svg">
+                </div>
+                <div class="text-container">
+                  <span class="teal">โปรโมชั่นที่่โดนใจ</span>
+                  <span class="">ว้อยฟิวเจอร์เก๋ากี้ถูกต้องอัลไซเมอร์ มาร์กแคปจัมโบ้ควีน </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      
+      
+      <section class="product-icons full-width">
+        <div class="container">
+          <div class="text-container text-center">
+            <h4 class="velvet h5 font-weight-bold  mb-3">บริการของเรา</h4>
+            <h2 class="blue mb-3 h1 font-weight-bold">ผลิตภัณฑ์ของเรา</h2>
+            <p class="mb-5 blue">
+              กีวีฮาลาล เยนพลานุภาพสโตร์ แชมป์แอพพริคอทเก๋ากี้ ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก<br> แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ 
+            </p>
+          </div>
+          
+          <div class="row">
+            <div class="col-6 col-lg-3">
+              <a class="product-icon" href="#">
+                <img class="mb-3" src="assets/images/75x75px/1_Car_insurance_75X75svg.svg" >
+                <span class="">ประกันยานยนต์</span>
+              </a>
+            </div>
+            
+            <div class="col-6 col-lg-3">
+              <a class="product-icon" href="#">
+                <img class="mb-3" src="assets/images/75x75px/2_Travel%20_Insurance_75x75.svg" >
+                <span class="">ประกันการเดินทาง</span>
+              </a>
+            </div>
+            
+            <div class="col-6 col-lg-3">
+              <a class="product-icon" href="#">
+                <img class="mb-3" src="assets/images/75x75px/3_Home_insrance_75X75.svg" >
+                <span class="">ประกันภัย</span>
+              </a>
+            </div>
+            
+            <div class="col-6 col-lg-3">
+              <a class="product-icon" href="#">
+                <img class="mb-3" src="assets/images/75x75px/4_Life_insurance_75x75.svg" >
+                <span class="">ประกันชีวิต</span>
+              </a>
+            </div>
+            
+            <div class="col-6 col-lg-3">
+              <a class="product-icon" href="#">
+                <img class="mb-3" src="assets/images/75x75px/5_Motorcycle_insurance_75X75.svg" >
+                <span class="">ประกันภัยมอเตอร์ไซด์</span>
+              </a>
+            </div>
+            
+            <div class="col-6 col-lg-3">
+              <a class="product-icon" href="#">
+                <img class="mb-3" src="assets/images/75x75px/6_Home_loan_75x75.svg" >
+                <span class="">สินเชื่อบ้าน</span>
+              </a>
+            </div>
+            
+            <div class="col-6 col-lg-3">
+              <a class="product-icon" href="#">
+                <img class="mb-3" src="assets/images/75x75px/7_Personal_Loan_75x75.svg" >
+                <span class="">สินเชื่อส่วนบุคคล</span>
+              </a>
+            </div>
+            
+            <div class="col-6 col-lg-3">
+              <a class="product-icon" href="#">
+                <img class="mb-3" src="assets/images/75x75px/8_Creditcard_75x75.svg" >
+                <span class="">บัตรเครดิต</span>
+              </a>
+            </div>
+            
+            
+          </div>
+        </div>
+      </section>
+     
+     
+      <section class="stars full-width">
+        <img class="stardots" src="assets/images/star-dots.png" aria-hidden="true" />
+        <div class="text-center">
+          <h2 class="text-white h2 font-weight-bold">ความพึงพอใจระดับ 5 ดาว</h2>
+          <div class="stars-container">
+            <span class="star"><i class="fas fa-star"></i></span>
+            <span class="star"><i class="fas fa-star "></i></span>
+            <span class="star"><i class="fas fa-star "></i></span>
+            <span class="star"><i class="fas fa-star "></i></span>
+            <span class="star"><i class="fas fa-star "></i></span>
+          </div>
+        </div>
+      </section>
+      
+      
+      <section class="puppiesCTA full-width">
+        <div class="container">
+          
+          <div class="text-container text-center mb-5">
+            <h2 class="blue h1 font-weight-bold">ใช้เว็บไซต์ เปรียบเทียบ.com ครั้งแรกใช่มั่ย?</h2>
+            <h4 class="velvet mt-4 font-weight-bold">มี3ขั่นตอนง่ายๆดังนี้</h4>
+          </div>
+          
+          <div class="row">
+            
+            <div class="col-12 col-lg-4">
+              <img class="img-fluid" src="assets/images/steps/Step1.png">
+              
+              <div class="text-container text-center mt-4">
+                <h5 class="velvet font-weight-bold">ขั่นตอนที่1</h5>
+                <h4 class="teal mb-4 font-weight-bold">ค้นหาข้อมูลm</h4>
+                <p class="text-left">ว้อยฟิวเจอร์เก๋ากี้ถูกต้องอัลไซเมอร์ มาร์กแคปจัมโบ้ ควีน นายแบบผู้นำวิว แอดมิสชันกราวนด์โรแมนติค ดยุค ละอ่อน แจ๊กพ็อตชัวร์ ม้านั่งสแตนดาร์ด </p>
+              </div>
+            </div>
+            
+            <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+              <img class="img-fluid" src="assets/images/steps/Step2.png">
+              
+              <div class="text-container text-center mt-4">
+                <h5 class="velvet font-weight-bold">ขั่นตอนที่ 2</h5>
+                <h4 class="teal mb-4 font-weight-bold">เปรียบเทียบ</h4>
+                <p class="text-left">ว้อยฟิวเจอร์เก๋ากี้ถูกต้องอัลไซเมอร์ มาร์กแคปจัมโบ้ควีน นายแบบผู้นำวิว แอดมิสชันกราวนด์โรแมนติค ดยุค ละอ่อน แจ๊กพ็อตชัวร์ ม้านั่งสแตนดาร์ด </p>
+              </div>
+            </div>
+            
+            <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+              <img class="img-fluid" src="assets/images/steps/Step3.png">
+              
+              <div class="text-container text-center mt-4">
+                <h5 class="velvet font-weight-bold">ขั่นตอนที่ 3</h5>
+                <h4 class="teal mb-4 font-weight-bold">เลือกราคาที่ใช่</h4>
+                <p class="text-left">ว้อยฟิวเจอร์เก๋ากี้ถูกต้องอัลไซเมอร์ มาร์กแคปจัมโบ้ควีน นายแบบผู้นำวิว แอดมิสชันกราวนด์โรแมนติค ดยุค ละอ่อน แจ๊กพ็อตชัวร์ ม้านั่งสแตนดาร์ด </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <section class="bigPup full-width">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <img class="img-fluid" src="assets/images/Confused_Shiba-Inu.png" alt="">
+            </div>
+            <div class="text-container pt-0 pl-5 pr-5 pt-lg-5 col-12 col-lg-6 text-left mt-5 mt-lg-0">
+              <h5 class="mb-3 h4 velvet">ทำไมต้องเปรียบเทียบ.คอม?</h5>
+              <h3 class="mb-4 h1 font-weight-bold blue">สิทธิประโยชน์ที่ดี
+ในราคาสบายกระเป๋า</h3>
+              
+              <p>ว้อยฟิวเจอร์เก๋ากี้ถูกต้องอัลไซเมอร์ มาร์กแคปจัมโบ้ควีน นายแบบผู้นำวิว แอดมิสชันกราวนด์โรแมนติค ดยุค ละอ่อน แจ๊กพ็อตชัวร์ ม้านั่งสแตนดาร์ด อุปนายิกาแพตเทิร์นรุสโซนพมาศสโรชา พุดดิ้งแคชเชียร์วิดีโอ เบนโตะ เตี๊ยมจุ๊ยซิ่ง ซัพพลายเออร์มั้งโฟล์ควัคค์ ไลท์ทาวน์มั้ยลิมิตเวิร์ก ออร์เดอร์มาเฟียไวอากร้า รีไซเคิลมาม่าสปา</p>
+              
+              <a href="#" class="btn green-btn shadow-sm green-bg btn-block mt-5">
+                ค้นหาเลย
+                <span class="fas fa-angle-right"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <section class="moreCTAs full-width text-center">
+        <img src="assets/images/Pokadot_onside.svg" class="polkadots">
+        <div class="container">
+          <h5 class="velvet mb-4 h4 font-weight-bold">บล็อกที่น่าสนใจ  </h5>
+          <h3 class="blue h1 font-weight-bold">วิธีการประหยัดเงินในรูปแบบต่างๆ</h3>
+          
+          <div class="ctas-container mt-5">
+            <a class="cta" href="#">
+              <img src="assets/images/cup.png" alt="">
+              <div class="text-container">
+                <span class="tag lime">โดย ซาร่า </span>
+                <h5>กาแฟที่ดี คือ กาแฟที่ไม่ต้อง จ่ายเงินซื้อ งดซื้อกาแฟ</h5>
+                <p>ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ คอมเมนท์ อ่อนด้อยเอนทรานซ์ คลาสสิกก่อนหน้าเทียมทาน</p>
+              </div>
+            </a>
+            
+            <a class="cta" href="#">
+              <img src="assets/images/piggybank2.png" alt="">
+              <div class="text-container">
+                <h5>วิธีการออมเงินในรูปแบบต่างๆ</h5>
+                <p>ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ คอมเมนท์ อ่อนด้อยเอนทรานซ์ คลาสสิกก่อนหน้าเทียมทาน</p>
+              </div>
+            </a>
+            
+            <a class="cta" href="#">
+              <img src="assets/images/cup.png" alt="">
+              <div class="text-container">
+                <span class="tag lime"></span>
+                <h5>กาแฟที่ดี คือ กาแฟที่ไม่ต้อง
+จ่ายเงินซื้อ งดซื้อกาแฟ</h5>
+                <p>ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ คอมเมนท์ อ่อนด้อยเอนทรานซ์ คลาสสิกก่อนหน้าเทียมทาน</p>
+              </div>
+            </a>
+          </div><!-- /.ctas-container ENDs -->
+          
+          <div class="text-center mt-5">
+            <a href="#" class="btn green-btn shadow-sm green-bg btn-lg ">
+              บทความอื่นๆ
+              <span class="fas fa-angle-right"></span>
+            </a>
+          </div>
+        </div><!-- /.container ENDs -->
+      </section>
+      
+      
+      <section class="testimonials full-width dark-bg">
+        <img src="assets/images/Pokadot_onside.svg" class="polkadots">
+        <h3 class="blue h1 font-weight-bold">จากผู้ใช้งานจริง</h3>
+                
+        <hr class="lime-bg mb-4">
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+            
+              <div class="testimonials-container">
+              
+                <div class="testimonial">
+                  <img src="assets/images/quotes.png" aria-hidden="true" class="quotes" />
+                   <div class="profile-box">
+                     <img class="profile-picture" src="assets/images/profile_user.jpg">
+                     <span class="name mb-1">สมชาย สามารถ</span>
+                     <span class="designation">อดีตข้าราชการ วัยเกษียณ</span>
+                   </div>
+                   <p>ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ คอมเมนท์ อ่อนด้อยเอนทรานซ์ คลาสสิกก่อนหน้าเทียมทาน วาฟเฟิลแคนยอนโบรกเกอร์ สตาร์ทบิ๊ก บูมน้อง ใหม่วีเจ รามาธิบดีสุริยยาตร์ฮาโลวีนอีสเตอร์บัตเตอร์ แจ็กพอตเอสเปรสโซอินเตอร์</p>
+                </div>
+                   
+                <div class="testimonial">
+                  <img src="assets/images/quotes.png" aria-hidden="true" class="quotes" />
+                   <div class="profile-box">
+                     <img class="profile-picture" src="assets/images/profile_user.jpg">
+                     <span class="name mb-1">กัญญารัตน์ แสงศรีนวล</span>
+                     <span class="designation">พนักงานบริษัท</span>
+                   </div>
+                   <p>ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ คอมเมนท์ อ่อนด้อยเอนทรานซ์ คลาสสิกก่อนหน้าเทียมทาน วาฟเฟิลแคนยอนโบรกเกอร์ สตาร์ทบิ๊ก บูมน้อง ใหม่วีเจ รามาธิบดีสุริยยาตร์ฮาโลวีนอีสเตอร์บัตเตอร์ แจ็กพอตเอสเปรสโซอินเตอร์</p>
+                </div>
+                    
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+            
+              <div class="testimonials-container">
+              
+                <div class="testimonial">
+                  <img src="assets/images/quotes.png" aria-hidden="true" class="quotes" />
+                   <div class="profile-box">
+                     <img class="profile-picture" src="assets/images/profile_user.jpg">
+                     <span class="name mb-1">สมชาย สามารถ</span>
+                     <span class="designation">อดีตข้าราชการ วัยเกษียณ</span>
+                   </div>
+                   <p>ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ คอมเมนท์ อ่อนด้อยเอนทรานซ์ คลาสสิกก่อนหน้าเทียมทาน วาฟเฟิลแคนยอนโบรกเกอร์ สตาร์ทบิ๊ก บูมน้อง ใหม่วีเจ รามาธิบดีสุริยยาตร์ฮาโลวีนอีสเตอร์บัตเตอร์ แจ็กพอตเอสเปรสโซอินเตอร์</p>
+                </div>
+                   
+                <div class="testimonial">
+                  <img src="assets/images/quotes.png" aria-hidden="true" class="quotes" />
+                   <div class="profile-box">
+                     <img class="profile-picture" src="assets/images/profile_user.jpg">
+                     <span class="name mb-1">กัญญารัตน์ แสงศรีนวล</span>
+                     <span class="designation">พนักงานบริษัท</span>
+                   </div>
+                   <p>ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ คอมเมนท์ อ่อนด้อยเอนทรานซ์ คลาสสิกก่อนหน้าเทียมทาน วาฟเฟิลแคนยอนโบรกเกอร์ สตาร์ทบิ๊ก บูมน้อง ใหม่วีเจ รามาธิบดีสุริยยาตร์ฮาโลวีนอีสเตอร์บัตเตอร์ แจ็กพอตเอสเปรสโซอินเตอร์</p>
+                </div>
+                    
+              </div>
+              
+            </div>
+            
+            <div class="carousel-item">
+            
+              <div class="testimonials-container">
+              
+                <div class="testimonial">
+                  <img src="assets/images/quotes.png" aria-hidden="true" class="quotes" />
+                   <div class="profile-box">
+                     <img class="profile-picture" src="assets/images/profile_user.jpg">
+                     <span class="name mb-1">สมชาย สามารถ</span>
+                     <span class="designation">อดีตข้าราชการ วัยเกษียณ</span>
+                   </div>
+                   <p>ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ คอมเมนท์ อ่อนด้อยเอนทรานซ์ คลาสสิกก่อนหน้าเทียมทาน วาฟเฟิลแคนยอนโบรกเกอร์ สตาร์ทบิ๊ก บูมน้อง ใหม่วีเจ รามาธิบดีสุริยยาตร์ฮาโลวีนอีสเตอร์บัตเตอร์ แจ็กพอตเอสเปรสโซอินเตอร์</p>
+                </div>
+                   
+                <div class="testimonial">
+                  <img src="assets/images/quotes.png" aria-hidden="true" class="quotes" />
+                   <div class="profile-box">
+                     <img class="profile-picture" src="assets/images/profile_user.jpg">
+                     <span class="name mb-1">กัญญารัตน์ แสงศรีนวล</span>
+                     <span class="designation">พนักงานบริษัท</span>
+                   </div>
+                   <p>ติ่มซำไคลแม็กซ์ ฮองเฮาทัวร์ ป๊อกโบรชัวร์แหววสต็อก แจม ไฮแจ็คภควัมบดีพันธุวิศวกรรมฮัลโหลบอมบ์ คอมเมนท์ อ่อนด้อยเอนทรานซ์ คลาสสิกก่อนหน้าเทียมทาน วาฟเฟิลแคนยอนโบรกเกอร์ สตาร์ทบิ๊ก บูมน้อง ใหม่วีเจ รามาธิบดีสุริยยาตร์ฮาโลวีนอีสเตอร์บัตเตอร์ แจ็กพอตเอสเปรสโซอินเตอร์</p>
+                </div>
+                    
+              </div>
+            </div>   
+          </div>
+        </div>  
+      </section>
+      
+      
+      <section class="happypuppy full-width beige-bg">
+        <div class="container">
+          <div class="text-center">
+            <h3 class="display-5 mb-4 font-weight-normal blue">เราขอเป็นตัวช่วยนึงในการลดค่าใช้จ่ายให้คุณ</h3>
+            <h3 class="velvet mb-5 h3 font-weight-bold">บริการอื่นๆของเรา</h3>
+            <div class="row pt-4">
+              <div class="col-lg-3">
+                <h3 class="text-center text-lg-left mb-3">
+                 <img src="assets/images/Icon_Footer/Insurance.svg">ประกันต่างๆ
+                </h3>
+                
+                <div class="links text-lg-left text-center">
+                  <a href="#">ประกันชีิวิต</a>
+                  <a href="#">ประกันอุบัติเหตุ</a>
+                  <a href="#">ประกันสุขภาพ</a>
+                  <a href="#">ประกันการเดินทาง</a>
+                  <a href="#">ประกันรถยนต์</a>
+                  <a href="#">ประกันมอเตอร์ไซด์</a>
+                </div>
+              </div>
+              
+              <div class="col-lg-3">
+                <h3 class="text-center text-lg-left mb-3 mt-5 mt-lg-0">
+                  <img src="assets/images/Icon_Footer/Money&Credit.svg" alt=""> บริการทางการเงิน
+                </h3>
+                
+                <div class="links text-lg-left text-center">
+                  <a href="#">ประกันชีิวิต</a>
+                  <a href="#">ประกันอุบัติเหตุ</a>
+                  <a href="#">ประกันสุขภาพ</a>
+                  <a href="#">ประกันการเดินทาง</a>
+                  <a href="#">ประกันรถยนต์</a>
+                  <a href="#">ประกันมอเตอร์ไซด์</a>
+                </div>
+              </div>
+              
+              <div class="col-lg-3">
+                <h3 class="text-center text-lg-left mb-3 mt-5 mt-lg-0">
+                  <img src="assets/images/Icon_Footer/MobilePhone.svg" alt=""> โปรโมชั่นมือถือ
+                </h3>
+                
+                <div class="links text-lg-left text-center">
+                  <a href="#">ประกันชีิวิต</a>
+                  <a href="#">ประกันอุบัติเหตุ</a>
+                  <a href="#">ประกันสุขภาพ</a>
+                  <a href="#">ประกันการเดินทาง</a>
+                  <a href="#">ประกันรถยนต์</a>
+                  <a href="#">ประกันมอเตอร์ไซด์</a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <h3 class="text-center text-lg-left mb-3 mt-5 mt-lg-0">
+                  <img src="assets/images/Icon_Footer/Internet_router.svg" alt=""> โปรอินเตอร์เน็ท 
+                </h3>
+                
+                <div class="links text-lg-left text-center">
+                  <a href="#">ประกันชีิวิต</a>
+                  <a href="#">ประกันอุบัติเหตุ</a>
+                  <a href="#">ประกันสุขภาพ</a>
+                  <a href="#">ประกันการเดินทาง</a>
+                  <a href="#">ประกันรถยนต์</a>
+                  <a href="#">ประกันมอเตอร์ไซด์</a>
+                </div>
+              </div>
+              
+              
+
+            </div>
+
+          </div>
+        </div>
+<!--        asdf-->
+        <img class="happyShiba" src="assets/images/ShibaInu_Smile1.svg" />
+      </section>
+      
+      <footer class="footer full-width mt-auto py-3">
+        <div class="container">
+          <div class="text-center">
+            <div class="row pt-4">
+              <div class="col-lg-3 mb-3 mb-lg-0 text-left">
+                <img class="mb-4 d-block logo" src="assets/images/White-Logo.svg">
+                <span class="d-block d-lg-inline">ราเมนคอมเมนท์ สหัสวรรษแซ็กไนท์ยิม เลคเชอร์เกย์โกเต็กซ์ เที่ยงคืนมอลล์จัมโบ้ไบโอ จ๊อกกี้โปรเจ็กเตอร์ เปโซ ดาวน์ยูวีฮาโลวีนโปลิศซินโดรม ดีเจโฮปซิตีแต๋ว</span>
+              </div>
+
+              <div class="col-lg-2 mt-5 mt-lg-0">
+                <h3 class="text-lg-left text-center mb-3">เกี่ยวกับเรา</h3>
+
+                <div class="links text-left text-lg-center">
+                  <a href="#">เกี่ยวกับเรา</a>
+                  <a href="#">ติดต่อ</a>
+                  <a href="#">บล็อก</a>
+                  <a href="#">ข่าวอัพเดท</a>
+                  <a href="#">ร่วมงานกับเรา</a>
+                </div>
+              </div>
+
+              <div class="col-lg-2 mt-5 mt-lg-0">
+                <h3 class="text-lg-left text-center mb-3">
+                  ช่วยเหลือ
+                </h3>
+
+                <div class="links text-lg-left text-center">
+                  <a href="#">คำถามที่พบบ่อย</a>
+                  <a href="#">แหล่งความรู้</a>
+                </div>
+              </div>
+
+              <div class="col-lg-2 mt-5 mt-lg-0">
+                <h3 class="text-lg-left text-center mb-3">
+                  เปรียบเทียบ
+                </h3>
+
+                <div class="links text-lg-left text-center">
+                  <a href="#">ประกันรถยนต์</a>
+                  <a href="#">ประกันเดินทาง</a>
+                  <a href="#">บัตรเครดิต</a>
+                  <a href="#">รีไฟแนนซ์บ้าน</a>
+                  <a href="#">สินเชื่อเงินสด</a>
+                  <a href="#">บัตรกดเงินสด</a>
+                  <a href="#">เงินฝากประจำ</a>
+                  <a href="#">เงินฝากออมทรัพย์</a>
+                </div>
+              </div>
+
+              <div class="col-lg-3 mt-5 mt-lg-0">
+                <h5 class="text-center">ติดตามเปรียบเทียบ</h5>
+
+                <div class="social-links mt-4">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+
+            </div><!--/.row ENDs -->
+
+            <div class="copyright row">
+              <div class="col-12 text-center">
+                <span>© 2019. PreeabTreeab All rights reserved</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+     
+    </main><!-- .content.container ENDs -->
+
+    <!-- Automatically updating the copyright year in the footer, if 2019 has elapsed -->
+    <script>
+    </script>
+    <!-- jQuery first, then popper then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+   <script src="assets/js/slideout.js"></script><!-- drawer menu -->
+   <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"></script><!-- Bootstrap date-picker -->
+    <script>
+      
+      // Preventing links with '#' hrefs from trigging the page to jump
+      document.querySelectorAll('a[href="#"]').forEach(function(link){
+        link.addEventListener('click', function(event){
+          event.preventDefault();
+        })
+      })
+      
+      
+      // Automatically updating the copyright year in the footer, if 2019 has elapsed
+      document.addEventListener('DOMContentLoaded', function(event){
+        
+        var slideout = new Slideout({
+          'side': 'right',
+          'panel': document.getElementById('panel'),
+          'menu': document.getElementById('menu'),
+          'padding': 256,
+          'tolerance': 70
+        });
+
+        let year = new Date().getFullYear();
+        // Ensuring that the date isn't artificially set to be prior to 2019. Users with time-machines are _not_ catered for
+        if(year > 2019){
+          document.querySelector('footer .copyright.row span').innerText = `© ${year}. PreeabTreeab All rights reserved`;
+        }
+        // Time of coding - Mon 30 April, 3:03PM, 2019). Qasim Qureshi twitter.com/Qasim_57
+        
+        // Dropdown menu click handler
+        document.querySelectorAll('.select-component > .dropdown-menu > .dropdown-item').forEach(function(dropdown){
+          dropdown.addEventListener('click', function(event){
+
+            var selectedVal = event.target.innerHTML;
+            event.target.parentElement.parentElement.querySelector('button.dropdown-toggle').innerHTML = selectedVal;
+            event.target.parentElement.parentElement.querySelector('input[type=hidden]').val = selectedVal;
+            
+          })
+        })
+        
+        $('#startdatepicker').datepicker({
+          uiLibrary: 'bootstrap4'
+        })
+        
+        $('#enddatepicker').datepicker({
+          uiLibrary: 'bootstrap4'
+        })
+        
+        $('.navbar-toggler').on('click', function(event){
+          slideout.toggle();
+        })
+      })
+      
+      
+    </script>
+  </body>
+</html>

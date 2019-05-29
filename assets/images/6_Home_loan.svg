@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261.191" height="242.563" viewBox="0 0 261.191 242.563">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.767;
+      }
+
+      .cls-2 {
+        fill: #212a58;
+        font-size: 20px;
+        font-family: Kanit-SemiBold, Kanit;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        fill: #b91165;
+      }
+
+      .cls-5 {
+        filter: url(#Ellipse_33);
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_94);
+      }
+    </style>
+    <filter id="Rectangle_94" x="0" y="0" width="261.191" height="242.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#0828cc" flood-opacity="0.129"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_33" x="83" y="49" width="95" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_9518" data-name="Group 9518" transform="translate(18311.191 18640.537)">
+    <g id="Group_5929" data-name="Group 5929" transform="translate(-18281.191 -18616.537)">
+      <g id="Group_5896" data-name="Group 5896">
+        <g id="Group_226" data-name="Group 226">
+          <g class="cls-6" transform="matrix(1, 0, 0, 1, -30, -24)">
+            <rect id="Rectangle_94-2" data-name="Rectangle 94" class="cls-1" width="201.192" height="182.563" rx="5" transform="translate(30 24)"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_5904" data-name="Group 5904" transform="translate(56.001 31)">
+        <g class="cls-5" transform="matrix(1, 0, 0, 1, -86, -55)">
+          <circle id="Ellipse_33-2" data-name="Ellipse 33" class="cls-3" cx="38.5" cy="38.5" r="38.5" transform="translate(92 55)"/>
+        </g>
+      </g>
+      <g id="mortgage" transform="translate(68 42.783)">
+        <path id="Path_1585" data-name="Path 1585" class="cls-4" d="M50.787,41.233,30.107,35.86a3.114,3.114,0,0,0-3.751,2.129V41.84a2.92,2.92,0,0,0,2.129,2.839L33.148,46.2a1.014,1.014,0,0,1,.608,1.318.765.765,0,0,1-.2.405l-1.825,1.825a.925.925,0,0,1-1.115.2L4.258,39.408A3.026,3.026,0,0,0,.3,41.131,2.045,2.045,0,0,0,0,42.246v2.838a3.172,3.172,0,0,0,1.723,2.737l29.6,14.293a3.112,3.112,0,0,0,2.129.2l17.334-4.866H60.822V41.233ZM32.945,60.29a.89.89,0,0,1-.71-.1L2.636,45.9a.886.886,0,0,1-.608-.912V42.246a.958.958,0,0,1,1.014-1.014.611.611,0,0,1,.405.1L29.8,51.876a2.972,2.972,0,0,0,3.244-.71l1.824-1.824a2.939,2.939,0,0,0,0-4.258,2.433,2.433,0,0,0-1.216-.71l-4.663-1.521a1.342,1.342,0,0,1-.608-1.014V38.8A.958.958,0,0,1,29.4,37.786h.3l19.97,5.271V55.728Zm25.85-4.866H51.7V43.26h7.1Zm0,0" transform="translate(0 -7.577)"/>
+        <path id="Path_1586" data-name="Path 1586" class="cls-4" d="M68.017,47.82h2.027v4.055H68.017Zm0,0" transform="translate(-14.29 -10.11)"/>
+        <path id="Path_1587" data-name="Path 1587" class="cls-4" d="M34.65,10.6H44.787v2.027H34.65Zm0,0" transform="translate(-7.28 -2.291)"/>
+        <path id="Path_1588" data-name="Path 1588" class="cls-4" d="M34.65,28.915H44.787V15.737H34.65Zm2.027-11.151H42.76v9.123H36.677Zm0,0" transform="translate(-7.28 -3.37)"/>
+        <path id="Path_1589" data-name="Path 1589" class="cls-4" d="M29.182,31.708H25.127V10.014l12.164-7.5,12.164,7.5V29.681h2.027V8.8L48.443,6.973V3.324H46.415V5.757L37.292.08,23.1,8.8V33.735h6.082Zm0,0" transform="translate(-4.853 -0.08)"/>
+        <path id="Path_1590" data-name="Path 1590" class="cls-4" d="M9.82,26.823h.507v7.1h2.027v-7.1h.507a4.067,4.067,0,0,0,4.055-4.055V22.16L15.8,14.05A4.046,4.046,0,0,0,11.745,10.6h-.811A4.138,4.138,0,0,0,6.88,14.05L5.765,22.16a4.021,4.021,0,0,0,3.447,4.562A1.285,1.285,0,0,0,9.82,26.823ZM7.792,22.464l1.115-8.11a1.986,1.986,0,0,1,2.027-1.723h.811a2.061,2.061,0,0,1,2.027,1.723l1.115,8.11A2.049,2.049,0,0,1,13.165,24.8h-.811V20.741H10.326V24.8H9.82a2.034,2.034,0,0,1-2.027-2.027Zm0,0" transform="translate(-1.203 -2.291)"/>
+      </g>
+    </g>
+  </g>
+</svg>
