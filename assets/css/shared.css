@@ -796,16 +796,42 @@ section.happypuppy > div.container > div > .row > div > h3 > img {
 
 /* footer */
 footer {
-  background-color: #1b4988;
+  background-color: #3657AE;
   color: #fff;
+}
+
+footer .footer-links > a:hover {
+  text-decoration: none;
+  opacity: 1
+}
+
+footer .footer-links + span {
+  opacity: 0.9;
+  font-size: 0.9em;
+  font-weight: 100;
+}
+
+footer .footer-links > a {
+  color: white;
+  padding-right: 5px;
+  border-right: 2px solid white;
+  opacity: 0.9;
+  font-weight: bolder;
+}
+
+footer .footer-links > a:last-of-type {
+  border-right: none;
 }
 
 footer > .container > a {
   color: white;
 }
 
+/*
+ข้อตกลงและเงื่อนไข  คำชี้แจงสิทธิส่วนบุคคล  นโยบายคุกกี้  ประกันภัย
+*/
 footer .row > div {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 footer .row > div > .social-links {
@@ -815,21 +841,21 @@ footer .row > div > .social-links {
 footer .row > div > .social-links > a {
   display: inline-block;
   float: left;
-  width: 25%;
+  width: 40px;
   text-align: text-center;
 /*  padding: 0 1em;*/
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
-  opacity: 0.7;
+/*  opacity: 0.7;*/
   transition: 0.2s linear opacity;
 }
 
 footer .row > div > .social-links > a:hover {
-  opacity: 1;
+/*  opacity: 1;*/
 }
 
 footer .row > div > h3, footer .row > div > h5 {
-  opacity: 0.8;
+/*  opacity: 0.8;*/
   font-size: 1.5em;
 }
 
